@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\julba\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\julba\\.nuget\\packages"
+    ]
+  }
+}

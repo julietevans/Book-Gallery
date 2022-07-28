@@ -1,0 +1,28 @@
+﻿@model BooksGallery.Models.IndexModelView
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Books</h1>
+<a asp-action="Create" asp-controller="Books">Add a New Book</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* displays heading for column name *@
+                @Html.DisplayNameFor(model=>model.Books.Last().Title)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Books)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelitem => item.Title)</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
