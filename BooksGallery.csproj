@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\catchingfire.jpg" />
+    <None Include="wwwroot\Images\chamberofsecrets.jpg" />
+    <None Include="wwwroot\Images\deathlyhallows.jpg" />
+    <None Include="wwwroot\Images\gobletoffire.jpg" />
+    <None Include="wwwroot\Images\halfbbloodprince.jpg" />
+    <None Include="wwwroot\Images\hungergames.jpg" />
+    <None Include="wwwroot\Images\mockingjay.jpg" />
+    <None Include="wwwroot\Images\orderofthephoenix.jpg" />
+    <None Include="wwwroot\Images\prisonerofazkaban.jpg" />
+    <None Include="wwwroot\Images\sorcerersstone.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
